@@ -1,20 +1,51 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30907.101
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V4", "V4.csproj", "{5D109D91-429B-498A-8F83-6E981CFFD71D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "GUI.csproj", "{5D109D91-429B-498A-8F83-6E981CFFD71D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Embeded Master and Slave", "..\Embeded Master and Slave\Embeded Master and Slave.vcxproj", "{8C87185F-7BA7-4A97-9F66-59AACA294E73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Devre Şeması Proteus", "Devre Şeması Proteus", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		CRC_180224081.pdsprj = CRC_180224081.pdsprj
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5D109D91-429B-498A-8F83-6E981CFFD71D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5D109D91-429B-498A-8F83-6E981CFFD71D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D109D91-429B-498A-8F83-6E981CFFD71D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5D109D91-429B-498A-8F83-6E981CFFD71D}.Debug|x64.Build.0 = Debug|Any CPU
+		{5D109D91-429B-498A-8F83-6E981CFFD71D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5D109D91-429B-498A-8F83-6E981CFFD71D}.Debug|x86.Build.0 = Debug|Any CPU
 		{5D109D91-429B-498A-8F83-6E981CFFD71D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D109D91-429B-498A-8F83-6E981CFFD71D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D109D91-429B-498A-8F83-6E981CFFD71D}.Release|x64.ActiveCfg = Release|Any CPU
+		{5D109D91-429B-498A-8F83-6E981CFFD71D}.Release|x64.Build.0 = Release|Any CPU
+		{5D109D91-429B-498A-8F83-6E981CFFD71D}.Release|x86.ActiveCfg = Release|Any CPU
+		{5D109D91-429B-498A-8F83-6E981CFFD71D}.Release|x86.Build.0 = Release|Any CPU
+		{8C87185F-7BA7-4A97-9F66-59AACA294E73}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{8C87185F-7BA7-4A97-9F66-59AACA294E73}.Debug|Any CPU.Build.0 = Debug|x64
+		{8C87185F-7BA7-4A97-9F66-59AACA294E73}.Debug|x64.ActiveCfg = Debug|x64
+		{8C87185F-7BA7-4A97-9F66-59AACA294E73}.Debug|x64.Build.0 = Debug|x64
+		{8C87185F-7BA7-4A97-9F66-59AACA294E73}.Debug|x86.ActiveCfg = Debug|Win32
+		{8C87185F-7BA7-4A97-9F66-59AACA294E73}.Debug|x86.Build.0 = Debug|Win32
+		{8C87185F-7BA7-4A97-9F66-59AACA294E73}.Release|Any CPU.ActiveCfg = Release|x64
+		{8C87185F-7BA7-4A97-9F66-59AACA294E73}.Release|Any CPU.Build.0 = Release|x64
+		{8C87185F-7BA7-4A97-9F66-59AACA294E73}.Release|x64.ActiveCfg = Release|x64
+		{8C87185F-7BA7-4A97-9F66-59AACA294E73}.Release|x64.Build.0 = Release|x64
+		{8C87185F-7BA7-4A97-9F66-59AACA294E73}.Release|x86.ActiveCfg = Release|Win32
+		{8C87185F-7BA7-4A97-9F66-59AACA294E73}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
