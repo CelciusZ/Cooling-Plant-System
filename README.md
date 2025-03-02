@@ -37,6 +37,8 @@ Bu proje, bir soğutma tesisinin sıcaklık kontrolünü sağlayan bir sistemin 
 - **Receiver:** Gelen veriyi gösterir (test amaçlı).
 - **Sistem Ekranı:** Oda sıcaklıkları ve soğutucu durumu takibi.
 
+![GUI Arayüzü](https://github.com/CelciusZ/Cooling-Plant-System/raw/master/GUI.PNG)
+
 ## Kurulum ve Kullanım
 1. **Donanım Kurulumu:**
    - PIC 16F877A’ları MAX487 ile bağlayın (devre şemaları raporda).
@@ -51,7 +53,7 @@ Bu proje, bir soğutma tesisinin sıcaklık kontrolünü sağlayan bir sistemin 
    - GUI’yi başlatın, COM portu seçin ve sistemi kontrol edin.
 
 ## Ekran Görüntüleri
-*(Buraya devre şemaları veya GUI ekran görüntüleri eklenebilir.)*
+*(Buraya devre şemaları gibi ek görseller eklenebilir.)*
 
 ## Katkıda Bulunma
 Her türlü öneri ve katkıya açığım! Issues veya PR ile ulaşabilirsiniz.
