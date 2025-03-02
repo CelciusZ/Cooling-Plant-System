@@ -15,23 +15,20 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="D:\KLASORLER\KOÜ 18-21\2020-2021 BAHAR\endustrial\180224081_MKT431_Proje_Rapor\CRC_SLAVE_2.hex" />
-    <None Include="D:\KLASORLER\KOÜ 18-21\2020-2021 BAHAR\endustrial\180224081_MKT431_Proje_Rapor\CRC_SLAVE_3.hex" />
-    <None Include="D:\KLASORLER\KOÜ 18-21\2020-2021 BAHAR\endustrial\180224081_MKT431_Proje_Rapor\CRC_MASTER.hex" />
-    <None Include="D:\KLASORLER\KOÜ 18-21\2020-2021 BAHAR\endustrial\180224081_MKT431_Proje_Rapor\CRC_SLAVE_1.hex" />
+    <ClCompile Include="code\CRC_MASTER.c">
+      <Filter>Kaynak Dosyalar</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CRC_SLAVE_1.c">
+      <Filter>Kaynak Dosyalar</Filter>
+    </ClCompile>
+    <ClCompile Include="code\CRC_SLAVE_2.c">
+      <Filter>Kaynak Dosyalar</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\KLASORLER\KOÜ 18-21\2020-2021 BAHAR\endustrial\180224081_MKT431_Proje_Rapor\CRC_SLAVE_3.c">
-      <Filter>Kaynak Dosyalar</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\KLASORLER\KOÜ 18-21\2020-2021 BAHAR\endustrial\180224081_MKT431_Proje_Rapor\CRC_MASTER.c">
-      <Filter>Kaynak Dosyalar</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\KLASORLER\KOÜ 18-21\2020-2021 BAHAR\endustrial\180224081_MKT431_Proje_Rapor\CRC_SLAVE_1.c">
-      <Filter>Kaynak Dosyalar</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\KLASORLER\KOÜ 18-21\2020-2021 BAHAR\endustrial\180224081_MKT431_Proje_Rapor\CRC_SLAVE_2.c">
-      <Filter>Kaynak Dosyalar</Filter>
-    </ClCompile>
+    <None Include="code\CRC_MASTER.hex" />
+    <None Include="code\CRC_SLAVE_1.hex" />
+    <None Include="code\CRC_SLAVE_2.hex" />
+    <None Include="code\CRC_SLAVE_3.hex" />
   </ItemGroup>
 </Project>
