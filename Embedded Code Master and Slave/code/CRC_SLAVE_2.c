@@ -9,7 +9,7 @@
 #use rs232 (baud=9600, xmit=pin_C6, rcv=pin_C7, parity=N, stop=1,timeout=10)    // RS232 protokol ayarlar
 // #use i2c(master,sda=pin_c4,scl=pin_c3,slow=100000)
 
-
+//yohooo
 
 #define   CRCKEY     0xd5                                                              
 #define   ACK        0x00
